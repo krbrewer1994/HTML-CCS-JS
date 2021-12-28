@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🧘🏽‍♀️ Fade to Yoga</title>
+    <style>
+        body {
+            background-image: linear-gradient(#a6dbff, #92888c);
+        }
+
+        h1,
+        h2 {
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1 {
+            border: 1px solid white;
+            border-radius: 5px;
+            color: white;
+            cursor: pointer;
+            font-size: 40px;
+            padding: 16px 24px;
+        }
+
+        hr {
+            max-width: 65%;
+            color: white;
+        }
+
+        img {
+            border-radius: 20px 2px 20px 2px;
+            display: block;
+            height: auto;
+            margin: 50px auto;
+            max-width: 60%;
+        }
+
+        p1,
+        p2 {
+            display: block;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: auto;
+            text-align: center;
+            max-width: 75%;
+        }
+
+        p2 {
+            color: white;
+        }
+
+        ul {
+            padding: 0mm;
+        }
+
+        li {
+            display: block;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            list-style: none;
+            margin: 0 auto;
+        }
+
+        button {
+            background: white;
+            border-color: black;
+            border-radius: 50px 50px;
+            box-shadow: 0px 1px 20px 0px rgba(0, 0, 0, 0.5);
+            color: #92888C;
+            cursor: pointer;
+            display: block;
+            font-size: 15px;
+            font-weight: 450;
+            margin: 35px auto;
+            padding: 20px 25px;
+            text-align: center;
+            transition: all 250ms ease-in-out;
+        }
+
+        button:hover {
+            background: #a6dbff;
+            color: white;
+        }
+
+        h4 {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        p3 {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>
+        Fade to Yoga
+    </h1>
+    <h2>
+        FREE LIVE YOGA
+    </h2>
+    <hr />
+    <img src="FinalProjects/IMG_0865.PNG" alt="Yoga Photo" height="550px" width="300px">
+    <p1>
+        Fade To Yoga provides live virtual yoga, fitness, and meditation sessions to promote healthy behaviors within
+        the
+        changing workplace. Our customized classes reduce stress, improve health and wellness, and increase employee
+        engagement.
+    </p1>
+    <br />
+    <ul>
+        <li weekDay="Wendesday">
+            <h3>
+                Wendesday: </strong>
+            </h3>
+            <p2>
+                8pm ET Wine Down & Restore <br />
+            </p2>
+        </li>
+        <li weekDay="Thursday">
+            <h3>
+                Thursday: </strong>
+            </h3>
+            <p2>
+                6pm ET Power Up<br />
+            </p2>
+        </li>
+        <li weekDay="Sunday">
+            <h3>
+                Sunday: </strong>
+            </h3>
+            <p2>
+                12pm ET Centering Flow <br />
+            </p2>
+        </li>
+        </p2>
+        <button>
+            Get Started
+        </button>
+        <h4>
+            <a href="https://www.instagram.com/how_laila_does_it/" target="_blank" h4>
+                Follow me on Instagram 📸
+            </a>
+            <br />
+            <p3>
+                2021
+            </p3>
+        </h4>
+        <script>
+            function gatherInfo() {
+                let name = prompt("What is your name?");
+                let email = prompt("What is your email?");
+                if (name === "") { alert("Thank you for visiting 👋🏽"); }
+                else { alert("Savasana " + name + "! Welcome to Fade to Yoga!"); }
+            }
+            let changeButton = document.querySelector("button");
+            changeButton.addEventListener("click", gatherInfo);
+        </script>
+</body>
+
+</html>
